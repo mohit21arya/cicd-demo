@@ -20,5 +20,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Install JFrog CLI
+        uses: jfrog/setup-jfrog-cli@v4
+
       - name: Build
         run: mvn clean package
