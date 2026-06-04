@@ -36,4 +36,4 @@ jobs:
 
       - name: Upload Artifact
         run: |
-          jf rt u "target/*.jar" "maven-demo-local/"
+          jf rt u "target/*.jar" "maven-demo-local1/"
